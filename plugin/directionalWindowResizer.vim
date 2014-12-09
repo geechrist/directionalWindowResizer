@@ -1,12 +1,3 @@
-"By default I have the windows adjustment functions set to <Ctrl+j> for down, <Ctrl+k> for up, <Ctrl+l> for right & <Ctrl +h> for left
-"Adjust them to whatever suits your needs
-
-nnoremap <silent> <C-j> :call DownHorizontal()<CR>
-nnoremap <silent> <C-k> :call UpHorizontal()<CR>
-nnoremap <silent> <C-l> :call RightVertical()<CR>
-nnoremap <silent> <C-h> :call LeftVertical()<CR>
-
-
 "WINDOW RESIZING Down
 func! DownHorizontal()
 let currentWin = winnr()
